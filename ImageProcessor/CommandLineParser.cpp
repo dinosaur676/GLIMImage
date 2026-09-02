@@ -71,9 +71,9 @@ ProgramOptions CommandLineParser::parse(int argc, char* argv[]) {
     for (int i = FILTER; i < HELP; ++i) {
         if (!programOptions.options[i].getArg().empty())
         {
-            std::string str = programOptions.options[i].getLabels()[0] + ":" + programOptions.options[i].getArg() ;
+            std::string str = programOptions.options[i].getLabels()[0] + ":" + programOptions.options[i].getArg();
             LOGGER.LogInfo("Parameter", str);
-            programOptions.optionString += str + ";";
+            programOptions.optionString += str + "/";
         }
     }
 

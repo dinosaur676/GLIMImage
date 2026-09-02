@@ -14,7 +14,7 @@ void Filters::addFilter(FilterBase* filter)
 void Filters::addFilter(std::string filters)
 {
     bool isInBright = false;
-    std::vector<std::string> filterSplit = util::stringSplit(filters, ";");
+    std::vector<std::string> filterSplit = util::stringSplit(filters, "/");
 
     for (int i = 0; i < filterSplit.size(); ++i) {
         if (filterSplit[i].find("gray") != std::string::npos) {
@@ -74,7 +74,7 @@ void Filters::addFilter(std::string filters)
             if (isInBright)
                 continue;
 
-            double contrast = 0.0;
+            double contrast = 1.0;
             unsigned int bright = 0;
 
             for (int filterIndex = 0; filterIndex < filterSplit.size(); ++filterIndex) {

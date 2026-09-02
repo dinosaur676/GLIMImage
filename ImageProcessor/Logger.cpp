@@ -30,7 +30,7 @@ void Logger::init(std::string filePath, bool isTimePrint)
 
 	instance.file.open(filePath, std::ios::out | std::ios::app);
 	if (!instance.file.is_open()) {
-		std::cout << "파일 열기 실패: "
+		std::cout << "file Open Error: "
 			<< filePath
 			<< std::endl;
 

@@ -1,0 +1,61 @@
+[2026/9/2  22:51:3][INFO] Parameter : --filter:grayscale
+[2026/9/2  22:51:6][INFO] Parameter : --filter:grayscale
+[2026/9/2  22:51:19][INFO] Parameter : --filter:grayscale
+[2026/9/2  22:51:19][INFO] GrayScale : 처리 시간(us) 3353
+[2026/9/2  22:53:34][INFO] Parameter : --filter:grayscale_weight
+[2026/9/2  22:53:34][INFO] GrayScale : 처리 시간(us) 3256
+[2026/9/2  22:55:5][INFO] Parameter : --brightness:200
+[2026/9/2  22:55:5][INFO] Parameter : --contrast:1.3
+[2026/9/2  22:55:5][INFO] BrightContrast : 처리 시간(us) 4138
+[2026/9/2  22:55:51][INFO] Parameter : --threshold:128
+[2026/9/2  22:55:51][INFO] GrayScale : 처리 시간(us) 3289
+[2026/9/2  22:55:51][INFO] Threshold : 처리 시간(us) 6197
+[2026/9/2  22:57:5][INFO] Parameter : --filter:grayscale
+[2026/9/2  22:57:5][INFO] Parameter : --threshold:128
+[2026/9/2  22:57:5][INFO] GrayScale : 처리 시간(us) 3464
+[2026/9/2  22:57:5][INFO] GrayScale : 처리 시간(us) 2629
+[2026/9/2  22:57:5][INFO] Threshold : 처리 시간(us) 5498
+[2026/9/2  22:59:51][INFO] Parameter : --filter:blur
+[2026/9/2  22:59:51][INFO] Parameter : --sharpen:1
+[2026/9/2  22:59:51][INFO] Blur : 처리 시간(us) 838
+[2026/9/2  23:0:18][INFO] Parameter : --filter:blur
+[2026/9/2  23:0:18][INFO] Parameter : --sharpen:1
+[2026/9/2  23:0:18][INFO] Blur : 처리 시간(us) 837
+[2026/9/2  23:0:46][INFO] Parameter : --filter:blur
+[2026/9/2  23:0:46][INFO] Parameter : --sharpen:0
+[2026/9/2  23:0:46][INFO] Blur : 처리 시간(us) 835
+[2026/9/2  23:1:45][INFO] Parameter : --histogram:1
+[2026/9/2  23:1:45][INFO] Histogram : 처리 시간(us) 291591
+[2026/9/2  23:2:29][INFO] Parameter : --histogram:1
+[2026/9/2  23:2:30][INFO] Histogram : 처리 시간(us) 282717
+[2026/9/2  23:2:59][INFO] Parameter : --resize:2000,1000
+[2026/9/2  23:2:59][INFO] Resize : 처리 시간(us) 9945
+[2026/9/2  23:3:27][INFO] Parameter : --crop:100,100,500,500
+[2026/9/2  23:3:27][INFO] Crop : 처리 시간(us) 1044
+[2026/9/2  23:3:55][INFO] Parameter : --filter:1,0
+[2026/9/2  23:4:12][INFO] Parameter : --flip:1,0
+[2026/9/2  23:4:12][INFO] Flip : 처리 시간(us) 4026
+[2026/9/2  23:4:27][INFO] Parameter : --flip:0,1
+[2026/9/2  23:4:27][INFO] Flip : 처리 시간(us) 3962
+[2026/9/2  23:4:39][INFO] Parameter : --flip:1,1
+[2026/9/2  23:4:39][INFO] Flip : 처리 시간(us) 4087
+[2026/9/2  23:7:56][INFO] Parameter : --pipeline:grayscale/brightness:50/contrast:1.3/crop:100,100,700,700/resize:1000,2000
+[2026/9/2  23:7:56][INFO] GrayScale : 처리 시간(us) 3498
+[2026/9/2  23:7:56][INFO] BrightContrast : 처리 시간(us) 2922
+[2026/9/2  23:7:56][INFO] Crop : 처리 시간(us) 821
+[2026/9/2  23:7:56][INFO] Resize : 처리 시간(us) 5847
+[2026/9/2  23:8:16][INFO] Parameter : --pipeline:grayscale/brightness:50/crop:100,100,700,700/resize:1000,2000
+[2026/9/2  23:8:16][INFO] GrayScale : 처리 시간(us) 3568
+[2026/9/2  23:8:16][INFO] BrightContrast : 처리 시간(us) 2937
+[2026/9/2  23:8:16][INFO] Crop : 처리 시간(us) 839
+[2026/9/2  23:8:16][INFO] Resize : 처리 시간(us) 6525
+[2026/9/2  23:8:39][INFO] Parameter : --pipeline:grayscale/brightness:50/crop:100,100,700,700/resize:1000,2000
+[2026/9/2  23:8:39][INFO] GrayScale : 처리 시간(us) 3305
+[2026/9/2  23:8:39][INFO] BrightContrast : 처리 시간(us) 2980
+[2026/9/2  23:8:39][INFO] Crop : 처리 시간(us) 814
+[2026/9/2  23:8:39][INFO] Resize : 처리 시간(us) 6997
+[2026/9/2  23:8:58][INFO] Parameter : --pipeline:grayscale/brightness:100/crop:100,100,700,700/resize:1000,2000
+[2026/9/2  23:8:58][INFO] GrayScale : 처리 시간(us) 3378
+[2026/9/2  23:8:58][INFO] BrightContrast : 처리 시간(us) 2999
+[2026/9/2  23:8:58][INFO] Crop : 처리 시간(us) 834
+[2026/9/2  23:8:58][INFO] Resize : 처리 시간(us) 5613
