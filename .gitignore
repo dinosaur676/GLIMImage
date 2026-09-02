@@ -1,0 +1,8 @@
+# Visual Studio
+.vs/
+
+# Build 결과물
+Debug/
+Release/
+x64/
+x86/

@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="ImageBuffer.cpp" />
+    <ClCompile Include="BmpParser.cpp" />
+    <ClCompile Include="CommandLineParser.cpp" />
+    <ClCompile Include="filter\FilterBase.cpp">
+      <Filter>Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="filter\Filters.cpp">
+      <Filter>Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="filter\GrayScale.cpp">
+      <Filter>Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>log</Filter>
+    </ClCompile>
+    <ClCompile Include="filter\Thresholding.cpp">
+      <Filter>Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="Util.cpp" />
+    <ClCompile Include="filter\BrightContrast.cpp">
+      <Filter>Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="filter\Blur.cpp">
+      <Filter>Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="filter\Crop.cpp">
+      <Filter>Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="filter\Resize.cpp">
+      <Filter>Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="filter\Flip.cpp">
+      <Filter>Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="filter\Histogram.cpp">
+      <Filter>Filter</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Exceptions.h" />
+    <ClInclude Include="ImageBuffer.h" />
+    <ClInclude Include="BmpParser.h" />
+    <ClInclude Include="CommandLineParser.h" />
+    <ClInclude Include="filter\FilterBase.h">
+      <Filter>Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="filter\Filters.h">
+      <Filter>Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="filter\GrayScale.h">
+      <Filter>Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>log</Filter>
+    </ClInclude>
+    <ClInclude Include="filter\Thresholding.h">
+      <Filter>Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h" />
+    <ClInclude Include="filter\BrightContrast.h">
+      <Filter>Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="filter\Blur.h">
+      <Filter>Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="filter\Crop.h">
+      <Filter>Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="filter\Resize.h">
+      <Filter>Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="filter\Flip.h">
+      <Filter>Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="filter\Histogram.h">
+      <Filter>Filter</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Filter">
+      <UniqueIdentifier>{cea4ca9b-8e4a-42cd-89ba-977c2fa93eef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="log">
+      <UniqueIdentifier>{d2193dd7-9364-4e56-9370-0b51b5bf134f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
